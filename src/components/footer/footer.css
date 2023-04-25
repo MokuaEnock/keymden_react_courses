@@ -16,7 +16,22 @@ footer > * {
 }
 
 #footer-head {
-  height: 10vh;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footer-head > h3 {
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+#footer-head > span {
+  font-size: 2.5rem;
+  color: var(--primary);
+  width: 15%;
   display: flex;
   flex-direction: row;
   align-items: center;
