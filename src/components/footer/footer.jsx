@@ -14,7 +14,33 @@ export default function Footer() {
           <FaTwitter />
         </span>
       </div>
-      <div id="footer-body">footer</div>
+      <div id="footer-body">
+        <span className="foot-cont">
+          <h4>Courses</h4>
+          <Link to="">Data Science</Link>
+          <Link to="">Data Analysis</Link>
+          <Link to="">Advanced Excel</Link>
+          <Link to="">Stata and SPSS</Link>
+          <Link to="">Backend Development</Link>
+          <Link to="">Frontend Development</Link>
+        </span>
+
+        <span className="foot-cont">
+          <h4>Company</h4>
+          <Link to="">About Us</Link>
+          <Link to="">Careers</Link>
+          <Link to="">Partner with Us</Link>
+        </span>
+
+        <span className="foot-cont">
+          <h4>Resources</h4>
+          <Link to="">Alumni</Link>
+          <Link to="">Community</Link>
+          <Link to="">Blog</Link>
+          <Link to="">Events</Link>
+        </span>
+        <span className="foot-cont1"></span>
+      </div>
 
       <div id="footer-foot">
         <p>&copy; 2023 Keymden Solutions. All rights reserved.</p>
