@@ -6,6 +6,7 @@ import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 import Modules from "./pages/modules/modules";
 import About from "./pages/about/about";
+import Organizations from "./pages/organizations/org";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/modules" element={<Modules />} />
         <Route path="/about" element={<About />} />
+        <Route path="/teams" element={<Organizations />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
