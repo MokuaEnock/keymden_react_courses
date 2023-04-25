@@ -8,6 +8,7 @@ import Modules from "./pages/modules/modules";
 import About from "./pages/about/about";
 import Organizations from "./pages/organizations/org";
 import Contact from "./pages/contact/contact";
+import DataScience from "./courses/data_science/science";
 
 function App() {
   return (
@@ -15,14 +16,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/modules" element={<Modules />}>
-          <Route path="data_science" />
-          <Route path="data_analysis" />
-          <Route path="advanced_excel" />
-          <Route path="stata_spss" />
-          <Route path="backend_development" />
-          <Route path="frontend_development" />
-        </Route>
+        <Route path="/modules" element={<Modules />}></Route>
+
+        <Route path="/modules/data_science" element={<DataScience />}></Route>
         <Route path="/about" element={<About />} />
         <Route path="/teams" element={<Organizations />} />
         <Route path="/contact" element={<Contact />} />
