@@ -45,9 +45,32 @@ footer > * {
 }
 
 #footer-foot {
-  height: 10vh;
+  height: 5vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+#footer-foot > span {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footer-foot > p {
+  width: 25%;
+  font-size: 1rem;
+  display: flex;
+  color: var(--primary);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footer-foot > span > a {
+  font-size: 1rem;
+  color: var(--primary);
 }

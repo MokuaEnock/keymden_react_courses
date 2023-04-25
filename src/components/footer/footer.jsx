@@ -15,6 +15,7 @@ export default function Footer() {
         </span>
       </div>
       <div id="footer-body">footer</div>
+
       <div id="footer-foot">
         <p>&copy; 2023 Keymden Solutions. All rights reserved.</p>
         <span>

@@ -21,6 +21,10 @@ body {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 :root {
   --primary: #024751;
   --second: #23d06a;
