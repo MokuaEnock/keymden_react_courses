@@ -10,7 +10,8 @@ export default function Header() {
         </Link>
         <nav>
           <Link to="/modules">Courses</Link>
-          <Link to="/teams">For Organizations</Link>
+          <Link to="/teams">Organizations</Link>
+          <Link to="/careers">Careers</Link>
           <Link to="/about">About</Link>
         </nav>
         {/* <button id="contact-us">Contact Us</button> */}

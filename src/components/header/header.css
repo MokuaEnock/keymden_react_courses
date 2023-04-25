@@ -28,11 +28,12 @@ header a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 #header > nav > a {
   font-size: 1.2rem;
+  margin-left: 2vw;
 }
 
 .logo {
@@ -51,7 +52,6 @@ header a {
   width: 12%;
   height: 5.5vh;
   font-size: 1.2rem;
-  /* background-color: var(--primary); */
   background-color: white;
   color: var(--primary);
   border: 2px solid var(--primary);
