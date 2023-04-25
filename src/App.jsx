@@ -15,7 +15,14 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/modules" element={<Modules />} />
+        <Route path="/modules" element={<Modules />}>
+          <Route path="data_science" />
+          <Route path="data_analysis" />
+          <Route path="advanced_excel" />
+          <Route path="stata_spss" />
+          <Route path="backend_development" />
+          <Route path="frontend_development" />
+        </Route>
         <Route path="/about" element={<About />} />
         <Route path="/teams" element={<Organizations />} />
         <Route path="/contact" element={<Contact />} />
