@@ -15,6 +15,7 @@ export default function Header() {
           Keymden
         </Link>
         <nav>
+          <Link to="/modules">Admissions</Link>
           <Link to="/modules">Courses</Link>
           <Link to="/teams">Organizations</Link>
           <Link to="/careers">Careers</Link>

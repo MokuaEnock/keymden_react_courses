@@ -1,0 +1,44 @@
+#landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#landing > section {
+  width: 90%;
+  border: thin solid black;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  height: 70vh;
+}
+
+#landing-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+#landing-3 > h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--primary);
+}
+
+#landing-3 > p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--six);
+}
+
+#landing-3-cont {
+  height: 65vh;
+  width: 100%;
+  border: thin solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
