@@ -14,6 +14,9 @@
   justify-content: flex-start;
 }
 
+body {
+  background-color: var(--third);
+}
 #root > * {
   width: 100%;
 }
@@ -24,6 +27,7 @@
   --third: #f9fbfc;
   --four: #ffefb5;
   --five: #d0c2f8;
+  --six: #778899;
 }
 
 main {
