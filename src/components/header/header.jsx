@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./header.css";
 
 export default function Header() {
+  let navigate = useNavigate();
+
+  function redirect() {
+    navigate("/apply");
+  }
   return (
     <header>
       <div id="header">
@@ -14,8 +20,9 @@ export default function Header() {
           <Link to="/careers">Careers</Link>
           <Link to="/about">About</Link>
         </nav>
-        {/* <button id="contact-us">Contact Us</button> */}
-        <button id="contact-us">Apply</button>
+        <button id="contact-us" onClick={redirect}>
+          Apply
+        </button>
       </div>
     </header>
   );
