@@ -1,11 +1,11 @@
 footer {
   width: 100%;
-  border: thin solid black;
   height: 50vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+  background-color: var(--primary);
 }
 
 footer > * {
