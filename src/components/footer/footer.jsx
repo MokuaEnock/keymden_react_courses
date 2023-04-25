@@ -17,7 +17,7 @@ export default function Footer() {
       <div id="footer-body">
         <span className="foot-cont">
           <h4>Courses</h4>
-          <Link to="">Data Science</Link>
+          <Link to="/modules/data_science">Data Science</Link>
           <Link to="">Data Analysis</Link>
           <Link to="">Advanced Excel</Link>
           <Link to="">Stata and SPSS</Link>

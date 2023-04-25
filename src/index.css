@@ -33,6 +33,9 @@ button {
   cursor: pointer;
 }
 
+strong {
+  color: var(--second);
+}
 :root {
   --primary: #024751;
   --second: #23d06a;

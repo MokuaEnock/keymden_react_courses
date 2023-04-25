@@ -1,0 +1,37 @@
+#data-science {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#data-science > * {
+  width: 90%;
+  border: thin solid black;
+}
+
+#data-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+}
+
+#data-1 > * {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+#data-1 > h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--primary);
+}
+
+#data-1 > p {
+  width: 60%;
+  color: var(--six);
+  font-size: 1.2rem;
+  text-align: center;
+}
