@@ -27,17 +27,17 @@ export default function Footer() {
 
         <span className="foot-cont">
           <h4>Company</h4>
-          <Link to="">About Us</Link>
-          <Link to="">Careers</Link>
-          <Link to="">Partner with Us</Link>
+          <Link to="/about">About Us</Link>
+          <Link to="/careers">Careers</Link>
+          <Link to="/partner">Partner with Us</Link>
         </span>
 
         <span className="foot-cont">
           <h4>Resources</h4>
-          <Link to="">Alumni</Link>
-          <Link to="">Community</Link>
-          <Link to="">Blog</Link>
-          <Link to="">Events</Link>
+          <Link to="/alumni">Alumni</Link>
+          <Link to="/community">Community</Link>
+          <Link to="/blog">Blog</Link>
+          <Link to="/events">Events</Link>
         </span>
         <span className="foot-cont1">
           <h3>Newsletters</h3>
