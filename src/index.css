@@ -25,6 +25,14 @@ a {
   text-decoration: none;
 }
 
+input:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
 :root {
   --primary: #024751;
   --second: #23d06a;

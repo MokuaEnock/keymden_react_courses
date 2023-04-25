@@ -39,7 +39,13 @@ export default function Footer() {
           <Link to="">Blog</Link>
           <Link to="">Events</Link>
         </span>
-        <span className="foot-cont1"></span>
+        <span className="foot-cont1">
+          <h3>Newsletters</h3>
+          <form className="newsletter-form">
+            <input type="text" placeholder="Enter Email"></input>
+            <button type="submit">Get Newsletter</button>
+          </form>
+        </span>
       </div>
 
       <div id="footer-foot">
