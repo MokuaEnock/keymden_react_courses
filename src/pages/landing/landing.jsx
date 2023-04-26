@@ -72,18 +72,21 @@ export default function Landing() {
 
         <div id="landing-2-cont1">
           <span>
-            <h3>Join a global community</h3>
+            <h3>
+              Join an <strong>African</strong> community
+            </h3>
             <p>
               Be part of a network of tech lovers and career changers from all
-              over the world
+              over Africa and the rest of the world.
             </p>
           </span>
 
           <span>
-            <img src="#" alt="image" />
-            <img src="#" alt="image" />
-            <img src="#" alt="image" />
-            <img src="#" alt="image" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </span>
         </div>
 
@@ -105,7 +108,7 @@ export default function Landing() {
 
           <span>
             <h4>3+</h4>
-            <p>CAMPUSES WORLDWIDE</p>
+            <p>CAMPUSES IN AFRICA</p>
           </span>
         </div>
       </section>
