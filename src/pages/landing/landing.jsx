@@ -16,8 +16,8 @@ export default function Landing() {
             for you to study from wherever you want.
           </p>
           <span id="landing-buttons">
-            <Link to="/find_course">Find course</Link>
-            <Link to="/apply">Join Keymden</Link>
+            <Link to="/modules">For Individuals</Link>
+            <Link to="/organizations">For Organizations</Link>
           </span>
         </div>
         <div id="landing-1-2"></div>
