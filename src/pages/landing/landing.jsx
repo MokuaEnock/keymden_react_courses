@@ -23,6 +23,17 @@ export default function Landing() {
         <div id="landing-1-2"></div>
       </section>
 
+      <div id="landing-div">
+        <h2>
+          <strong>Our</strong> partners
+        </h2>
+        <p>
+          Meet some of the partners that believe in the talent we produce, and
+          hire our graduates.
+        </p>
+        <div></div>
+      </div>
+
       <section id="landing-2"></section>
       <section id="landing-3">
         <h2>
