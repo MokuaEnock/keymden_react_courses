@@ -6,7 +6,7 @@ export default function Header() {
   let navigate = useNavigate();
 
   function redirect() {
-    navigate("/apply");
+    navigate("/contact");
   }
   return (
     <header>
@@ -22,7 +22,7 @@ export default function Header() {
           <Link to="/about">About</Link>
         </nav>
         <button id="contact-us" onClick={redirect}>
-          Apply
+          Contact Us
         </button>
       </div>
     </header>

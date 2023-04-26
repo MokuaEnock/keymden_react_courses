@@ -9,7 +9,7 @@
   width: 90%;
   margin-top: 2vh;
   margin-bottom: 2vh;
-  min-height: 70vh;
+  min-height: max-content;
 }
 
 #landing-1 {
@@ -344,4 +344,65 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#landing-div-4 {
+  width: 100%;
+  height: max-content;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#landing-4 {
+  height: 30vh;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#landing-4 > span {
+  height: 100%;
+}
+
+#landing-4 > :first-child {
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#landing-4 > :first-child > h2 {
+  font-size: 3rem;
+  color: var(--primary);
+}
+
+#landing-4 > :first-child > p {
+  font-size: 1.2rem;
+  color: var(--six);
+}
+
+#landing-4 > :last-child {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#landing-4 > :last-child > button {
+  width: 30%;
+  height: 7vh;
+  background-color: var(--primary);
+  border: thin solid var(--primary);
+  color: var(--third);
+  font-size: 1.5rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 10px;
 }
