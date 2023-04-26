@@ -51,22 +51,22 @@ export default function Landing() {
         <div id="landing-2-cont">
           <span className="landing-2-cont">
             <span></span>
-            <button></button>
+            <button id="button-2c-1">Flexibility</button>
           </span>
 
           <span className="landing-2-cont">
             <span></span>
-            <button></button>
+            <button id="button-2c-2">Market Focused</button>
           </span>
 
           <span className="landing-2-cont">
             <span></span>
-            <button></button>
+            <button id="button-2c-3">Career Support</button>
           </span>
 
           <span className="landing-2-cont">
             <span></span>
-            <button></button>
+            <button id="button-2c-4">Project based</button>
           </span>
         </div>
 

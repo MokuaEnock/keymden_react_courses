@@ -189,14 +189,38 @@
 .landing-2-cont > button {
   height: 25%;
   display: flex;
-  border: thin solid var(--primary);
-  background-color: var(--primary);
+  font-size: 1.2rem;
   flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: center;
   border-bottom-right-radius: inherit;
   border-bottom-left-radius: inherit;
+}
+
+#button-2c-1 {
+  background-color: var(--primary);
+  border: thin solid var(--primary);
+  background-color: var(--primary);
+  color: var(--third);
+}
+
+#button-2c-2 {
+  background-color: var(--four);
+  border: thin solid var(--four);
+  color: var(--primary);
+}
+
+#button-2c-3 {
+  background-color: var(--five);
+  border: thin solid var(--five);
+  color: var(--primary);
+}
+
+#button-2c-4 {
+  background-color: var(--second);
+  border: thin solid var(--second);
+  color: var(--primary);
 }
 
 .landing-2-cont > span {
