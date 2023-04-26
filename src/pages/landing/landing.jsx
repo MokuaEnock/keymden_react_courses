@@ -6,12 +6,12 @@ export default function Landing() {
     <main id="landing">
       <section id="landing-1">
         <div id="landing-1-1">
-          <p>Join the next cohort</p>
+          <p className="par-0">Join the next cohort</p>
           <h1>
-            Build your skills <br />
+            Build <strong>your</strong> skills <br />
             Any time anywhere
           </h1>
-          <p>
+          <p className="par1">
             We provide 100% remote courses so that they can fit your needs and
             for you to study from wherever you want.
           </p>

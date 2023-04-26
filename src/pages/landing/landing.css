@@ -33,8 +33,68 @@
   justify-content: flex-start;
 }
 
+#landing-buttons {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#landing-buttons > * {
+  margin-right: 2vw;
+  width: 25%;
+  height: 6vh;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#landing-buttons > :first-child {
+  border: thin solid var(--primary);
+  background-color: var(--primary);
+  color: var(--third);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 10px;
+}
+
+#landing-buttons > :last-child {
+  border: 2px solid var(--primary);
+  background-color: white;
+  color: var(--primary);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 10px;
+}
+
 #landing-1-1 > * {
   margin-bottom: 2vh;
+}
+
+#landing-1-1 > h1 {
+  color: var(--primary);
+  font-size: 4.5rem;
+}
+
+#landing-1-1 > .par-0 {
+  color: var(--primary);
+  font-size: 1rem;
+  width: 60%;
+  text-align: left;
+}
+
+#landing-1-1 > .par1 {
+  color: var(--six);
+  font-size: 1.2rem;
+  width: 60%;
+  text-align: left;
 }
 
 #landing-1-2 {
