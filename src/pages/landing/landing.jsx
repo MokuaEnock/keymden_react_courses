@@ -34,7 +34,64 @@ export default function Landing() {
         <div></div>
       </div>
 
-      <section id="landing-2"></section>
+      <section id="landing-2">
+        <p>Why Keymden?</p>
+        <h2>
+          Keymden students get hired. We've helped thousands of students land
+          their dream jobs.
+        </h2>
+        <p>
+          We retain the top graduates from each cohort and offer them
+          opportunities.
+        </p>
+        <div id="landing-2-cont">
+          <span className="landing-2-cont"></span>
+          <span className="landing-2-cont"></span>
+          <span className="landing-2-cont"></span>
+          <span className="landing-2-cont"></span>
+          <span className="landing-2-cont"></span>
+        </div>
+
+        <div id="landing-2-cont1">
+          <span>
+            <h3>Join a global community</h3>
+            <p>
+              Be part of a network of tech lovers and career changers from all
+              over the world
+            </p>
+          </span>
+
+          <span>
+            <img src="#" alt="image" />
+            <img src="#" alt="image" />
+            <img src="#" alt="image" />
+            <img src="#" alt="image" />
+          </span>
+        </div>
+
+        <div id="landing-2-cont2">
+          <span>
+            <h4>1000+</h4>
+            <p>GRADUATED STUDENTS</p>
+          </span>
+
+          <span>
+            <h4>90%</h4>
+            <p>EMPLOYMENT RATE</p>
+          </span>
+
+          <span>
+            <h4>50+</h4>
+            <p>PARTNER ORGANIZATIONS</p>
+          </span>
+
+          <span>
+            <h4>3+</h4>
+            <p>GRADUATED STUDENTS</p>
+          </span>
+        </div>
+      </section>
+      
       <section id="landing-3">
         <h2>
           Browse our <strong>popular</strong> courses.
