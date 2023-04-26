@@ -35,21 +35,39 @@ export default function Landing() {
       </div>
 
       <section id="landing-2">
-        <p>Why Keymden?</p>
+        <p className="l2-par1">Why Keymden?</p>
+
         <h2>
-          Keymden students get hired. We've helped thousands of students land
-          their dream jobs.
+          Keymden students <strong>get hired</strong>. We've helped{" "}
+          <strong>thousands</strong> of students land their dream{" "}
+          <strong>jobs</strong>.
         </h2>
-        <p>
+
+        <p className="l2-par2">
           We retain the top graduates from each cohort and offer them
           opportunities.
         </p>
+
         <div id="landing-2-cont">
-          <span className="landing-2-cont"></span>
-          <span className="landing-2-cont"></span>
-          <span className="landing-2-cont"></span>
-          <span className="landing-2-cont"></span>
-          <span className="landing-2-cont"></span>
+          <span className="landing-2-cont">
+            <span></span>
+            <button></button>
+          </span>
+
+          <span className="landing-2-cont">
+            <span></span>
+            <button></button>
+          </span>
+
+          <span className="landing-2-cont">
+            <span></span>
+            <button></button>
+          </span>
+
+          <span className="landing-2-cont">
+            <span></span>
+            <button></button>
+          </span>
         </div>
 
         <div id="landing-2-cont1">
@@ -87,11 +105,11 @@ export default function Landing() {
 
           <span>
             <h4>3+</h4>
-            <p>GRADUATED STUDENTS</p>
+            <p>CAMPUSES WORLDWIDE</p>
           </span>
         </div>
       </section>
-      
+
       <section id="landing-3">
         <h2>
           Browse our <strong>popular</strong> courses.

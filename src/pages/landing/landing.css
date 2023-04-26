@@ -10,7 +10,7 @@
   border: thin solid black;
   margin-top: 2vh;
   margin-bottom: 2vh;
-  height: 70vh;
+  min-height: 70vh;
 }
 
 #landing-1 {
@@ -134,9 +134,112 @@
 
 #landing-2 {
   display: flex;
+  height: max-content;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+#landing-2 > * {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.l2-par1 {
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+.l2-par2 {
+  font-size: 1.2rem;
+  color: var(--six);
+}
+
+#landing-2 > h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  color: var(--primary);
+  width: 70%;
+}
+
+#landing-2-cont {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#landing-2-cont > span {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.landing-2-cont > * {
+  width: 100%;
+}
+
+.landing-2-cont > button {
+  height: 25%;
+  display: flex;
+  border: thin solid var(--primary);
+  background-color: var(--primary);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.landing-2-cont > span {
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#landing-2-cont1 {
+  width: 100%;
+  border: thin solid black;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#landing-2-cont2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 15vh;
+  /* border: thin solid black; */
+}
+
+#landing-2-cont2 > span {
+  height: 100%;
+  border: thin solid black;
+  background-color: white;
+  color: var(--primary);
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #landing-3 {
