@@ -7,7 +7,6 @@
 #modules > section {
   width: 90%;
   height: max-content;
-  border: thin solid black;
   padding-top: 3vh;
   padding-bottom: 3vh;
 }

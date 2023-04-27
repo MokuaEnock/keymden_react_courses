@@ -1,7 +1,5 @@
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
-
 import "./modules.css";
+import CourseQuiz from "../../components/CourseQuiz/course";
 
 export default function Modules() {
   return (
@@ -15,6 +13,8 @@ export default function Modules() {
           for the next cohort to start learning today.
         </p>
       </section>
+
+      <CourseQuiz />
     </main>
   );
 }
