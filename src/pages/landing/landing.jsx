@@ -155,17 +155,26 @@ export default function Landing() {
       </section>
 
       <section id="landing-6">
-        <span>
-          <h2>
-            Our <strong>Impact</strong>
-          </h2>
-          <p>
-            We are here to make a difference in Africa, we aim to create a tech
-            savvey Africa through our trainings and courses.
-          </p>
-        </span>
+        <h2>
+          Our <strong>Impact</strong>
+        </h2>
+        <p>
+          We are here to make a difference in Africa, we aim to create a tech
+          savvey Africa through our trainings and courses.
+        </p>
 
-        <span></span>
+        <div id="l6-cont">
+          <span id="l6-cont-1"></span>
+          <span id="l6-cont-2">
+            <p>
+              Through intensive training, mentorship, and hands-on experience,
+              we aim to empower the next generation of African leaders and
+              change-makers who will drive economic growth, social development,
+              and technological advancement across the continent.
+            </p>
+            <Link to="/impact">Learn More</Link>
+          </span>
+        </div>
       </section>
     </main>
   );
