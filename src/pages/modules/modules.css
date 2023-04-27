@@ -1,0 +1,32 @@
+#modules {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+#modules > section {
+  width: 90%;
+  height: max-content;
+  border: thin solid black;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+#modules-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#modules-1 > h2 {
+  color: var(--primary);
+  font-size: 3rem;
+  text-align: center;
+}
+
+#modules-1 > p {
+  color: var(--six);
+  font-size: 1.2rem;
+  text-align: center;
+}

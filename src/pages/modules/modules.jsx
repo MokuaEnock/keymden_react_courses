@@ -4,18 +4,16 @@ import { useNavigate } from "react-router-dom";
 import "./modules.css";
 
 export default function Modules() {
-  let navigate = useNavigate();
-
-  function redirect() {
-    navigate("/modules/data_science");
-  }
-
   return (
     <main id="modules">
       <section id="modules-1">
-        We have the following courses:
-        <Link to="data_science">Data Science</Link>
-        <button onClick={redirect}>Data science</button>
+        <h2>
+          Discover the <strong>right</strong> course for you.
+        </h2>
+        <p>
+          Browse through our catalogue find something that excites you and apply
+          for the next cohort to start learning today.
+        </p>
       </section>
     </main>
   );
