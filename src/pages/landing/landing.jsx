@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./landing.css";
+import CourseCarousel from "../../components/carousels/course";
 
 export default function Landing() {
   return (
@@ -148,13 +149,23 @@ export default function Landing() {
         <h2>
           <strong>Testimonials</strong> from our Alumni.
         </h2>
-        <p>Hear what some of our alumni have to say about Keymden</p>
+        <p>Listen to what some of our alumni have to say about Keymden</p>
+        <div id="landing-5-cont">{/* <CourseCarousel /> */}</div>
+        <Link to="/community">Alumni Community</Link>
       </section>
 
       <section id="landing-6">
-        <h2>
-          Our <strong>Impact</strong>
-        </h2>
+        <span>
+          <h2>
+            Our <strong>Impact</strong>
+          </h2>
+          <p>
+            We are here to make a difference in Africa, we aim to create a tech
+            savvey Africa through our trainings and courses.
+          </p>
+        </span>
+
+        <span></span>
       </section>
     </main>
   );
