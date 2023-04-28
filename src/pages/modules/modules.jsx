@@ -1,6 +1,4 @@
 import "./modules.css";
-import CourseQuiz from "../../components/CourseQuiz/course";
-import { Link } from "react-router-dom";
 
 export default function Modules() {
   return (

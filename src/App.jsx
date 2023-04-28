@@ -9,6 +9,7 @@ import About from "./pages/about/about";
 import Organizations from "./pages/organizations/org";
 import Contact from "./pages/contact/contact";
 import DataScience from "./courses/data_science/science";
+import Admission from "./pages/admission/admis";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/modules" element={<Modules />}></Route>
-
+        <Route path="/admissions" element={<Admission />} />
         <Route path="/modules/data_science" element={<DataScience />}></Route>
         <Route path="/about" element={<About />} />
         <Route path="/teams" element={<Organizations />} />
