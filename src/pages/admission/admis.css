@@ -74,3 +74,40 @@
   border-top-left-radius: 3px;
   border-bottom-left-radius: 10px;
 }
+
+#admis-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: max-content;
+}
+
+#admis-2 > h2 {
+  font-size: 4rem;
+  color: var(--primary);
+  text-align: center;
+}
+
+#admis-2 > p {
+  font-size: 1.2rem;
+  color: var(--six);
+  text-align: center;
+  width: 70%;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+#a2-cont {
+  width: 100%;
+  height: 100vh;
+  border: thin solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#a2-cont > * {
+  border: thin solid black;
+}
