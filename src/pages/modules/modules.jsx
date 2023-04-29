@@ -13,8 +13,22 @@ export default function Modules() {
         </p>
         <span>
           <button>All Courses</button>
-          <button>Take Quiz</button>
+          <button>Take a Quiz</button>
         </span>
+      </section>
+
+      <section className="courses-container" id="course-1">
+        <div className="course-header">
+          <h2>Data Science</h2>
+          <button>+</button>
+        </div>
+      </section>
+
+      <section className="courses-container" id="course-2">
+        <div className="course-header">
+          <h2>Data Science</h2>
+          <button>+</button>
+        </div>
       </section>
     </main>
   );
