@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./landing.css";
-import CourseCarousel from "../../components/carousels/course";
 import CourseQuiz from "../../components/CourseQuiz/course";
 
 export default function Landing() {
