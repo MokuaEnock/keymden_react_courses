@@ -1,39 +1,32 @@
-import { Carousel } from "react-bootstrap";
-import "./car.css";
+import "bootstrap/dist/css/bootstrap.css";
+import Carousel from "react-bootstrap/Carousel";
 
-export default function CourseCarousel() {
+export default function App() {
   return (
-    <div className="my-carousel-container">
-      <Carousel interval={3000} fade>
-        <Carousel.Item>
-          <div className="my-carousel-item">
-            <p>First slide</p>
-          </div>
+    <div style={{ display: "block", width: 700, padding: 30 }}>
+      <h4>React-Bootstrap Carousel Component</h4>
+      <Carousel>
+        <Carousel.Item interval={3000}>
+          <img
+            className="d-block w-100"
+            src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
+            alt="Image One"
+          />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Label for first slide</h3>
+            <p>Sample Text for Image One</p>
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item>
-          <div className="my-carousel-item">
-            <p>Second slide</p>
-          </div>
+        <Carousel.Item interval={3000}>
+          <img
+            className="d-block w-100"
+            src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
+            alt="Image Two"
+          />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        
-        <Carousel.Item>
-          <div className="my-carousel-item">
-            <p>Third slide</p>
-          </div>
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>Label for second slide</h3>
+            <p>Sample Text for Image Two</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
