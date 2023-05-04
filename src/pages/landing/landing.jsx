@@ -83,12 +83,12 @@ export default function Landing() {
             </p>
           </span>
 
-          <span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+          <span className="attribute-container">
+            <span id="l2-c1-1"></span>
+            <span id="l2-c1-2"></span>
+            <span id="l2-c1-3"></span>
+            <span id="l2-c1-4"></span>
+            <span id="l2-c1-5"></span>
           </span>
         </div>
 

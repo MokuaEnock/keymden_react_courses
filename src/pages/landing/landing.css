@@ -288,9 +288,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 110px;
-  width: 110px;
-  border: thin solid black;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   margin-left: -1vw;
   background-color: white;
@@ -339,6 +338,31 @@
 
 #l2-cs-4 {
   background-image: url(https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.attribute-container > span {
+  background-position: center;
+  background-size: cover;
+}
+
+#l2-c1-1 {
+  background-image: url(https://images.pexels.com/photos/5196916/pexels-photo-5196916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#l2-c1-2 {
+  background-image: url(https://images.pexels.com/photos/5984158/pexels-photo-5984158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#l2-c1-3 {
+  background-image: url(https://images.pexels.com/photos/4763153/pexels-photo-4763153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#l2-c1-4 {
+  background-image: url(https://images.pexels.com/photos/12577426/pexels-photo-12577426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#l2-c1-5 {
+  background-image: url(https://images.pexels.com/photos/5388539/pexels-photo-5388539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 
 #landing-3 {
