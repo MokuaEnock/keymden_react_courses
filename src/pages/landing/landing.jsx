@@ -52,22 +52,22 @@ export default function Landing() {
 
         <div id="landing-2-cont">
           <span className="landing-2-cont">
-            <span></span>
+            <span id="l2-cs-1"></span>
             <button id="button-2c-1">Flexibility</button>
           </span>
 
           <span className="landing-2-cont">
-            <span></span>
+            <span id="l2-cs-2"></span>
             <button id="button-2c-2">Market Focused</button>
           </span>
 
           <span className="landing-2-cont">
-            <span></span>
+            <span id="l2-cs-3"></span>
             <button id="button-2c-3">Career Support</button>
           </span>
 
           <span className="landing-2-cont">
-            <span></span>
+            <span id="l2-cs-4"></span>
             <button id="button-2c-4">Project based</button>
           </span>
         </div>
@@ -132,7 +132,9 @@ export default function Landing() {
           <strong>Testimonials</strong> from our Alumni.
         </h2>
         <p>Listen to what some of our alumni have to say about Keymden</p>
-        <div id="landing-5-cont"><CourseCarousel /></div>
+        <div id="landing-5-cont">
+          <CourseCarousel />
+        </div>
         <Link to="/community">Alumni Community</Link>
       </section>
 
