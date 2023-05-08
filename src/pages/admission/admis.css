@@ -91,7 +91,8 @@
   text-align: center;
 }
 
-#admis-2 > p, #admis-3>p {
+#admis-2 > p,
+#admis-3 > p {
   font-size: 1.2rem;
   color: var(--six);
   text-align: center;
@@ -111,5 +112,42 @@
 }
 
 #a2-cont > * {
+  border: thin solid black;
+}
+
+#admis-4 {
+  background-color: white;
+  width: 100%;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#a4-cont {
+  width: 90%;
+  height: 100%;
+  border: thin solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#admis-contact-form {
+  width: 50%;
+  height: 100%;
+  border: thin solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#admis-contact-form > * {
+  width: 100%;
   border: thin solid black;
 }

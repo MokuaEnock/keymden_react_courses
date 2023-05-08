@@ -40,16 +40,43 @@ export default function Admission() {
         </div>
       </section>
 
-      <section id="admis-4">
-        <h2>Contact the admissions team</h2>
-        <p>
-          Have something to consult with us contact the admissions team now.
-        </p>
+      <div id="admis-4">
+        <div id="a4-cont">
+          <form id="admis-contact-form">
+            <h3>Contact the admissions team</h3>
+            <p>Get in touch with the admissions team now.</p>
+            <span>
+              <label>
+                <p>First Name</p>
+                <input type="text" placeholder="First Name" />
+              </label>
 
-        <div id="admis-5">
-          
+              <label>
+                <p>Last Name</p>
+                <input type="text" placeholder="Last Name" />
+              </label>
+            </span>
+
+            <label>
+              <p>Email Address</p>
+              <input type="email" placeholder="Email Address" />
+            </label>
+
+            <label>
+              <p>Phone Number</p>
+              <input type="tel" />
+            </label>
+
+            <label>
+              <p>Message</p>
+              <textarea></textarea>
+            </label>
+
+            <button type="submit">Send Message</button>
+          </form>
+          <span id="admis-contact-image"></span>
         </div>
-      </section>
+      </div>
     </main>
   );
 }
