@@ -43,7 +43,9 @@ export default function Admission() {
       <div id="admis-4">
         <div id="a4-cont">
           <form id="admis-contact-form">
-            <h3>Contact the admissions team</h3>
+            <h3>
+              Contact <strong>Us</strong>
+            </h3>
             <p>Get in touch with the admissions team now.</p>
             <span>
               <label>
