@@ -66,7 +66,7 @@ export default function Admission() {
 
             <label>
               <p>Phone Number</p>
-              <input type="tel" />
+              <input type="tel" placeholder="Phone Number"/>
             </label>
 
             <label>
