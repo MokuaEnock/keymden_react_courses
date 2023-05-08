@@ -238,6 +238,8 @@ textarea:focus {
   border-radius: 2.5px 10px 10px 10px;
 }
 
-#admis-contact-image{
-  
+#admis-contact-image {
+  border: thin solid black;
+  height: 98vh;
+  width: 50%;
 }
