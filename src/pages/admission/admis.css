@@ -75,7 +75,8 @@
   border-bottom-left-radius: 10px;
 }
 
-#admis-2 {
+#admis-2,
+#admis-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,13 +84,14 @@
   height: max-content;
 }
 
-#admis-2 > h2 {
+#admis-2 > h2,
+#admis-3 > h2 {
   font-size: 4rem;
   color: var(--primary);
   text-align: center;
 }
 
-#admis-2 > p {
+#admis-2 > p, #admis-3>p {
   font-size: 1.2rem;
   color: var(--six);
   text-align: center;

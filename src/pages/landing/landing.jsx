@@ -40,8 +40,8 @@ export default function Landing() {
         <p className="l2-par1">Why Keymden?</p>
 
         <h2>
-          Keymden students <strong>get hired</strong>. We've helped{" "}
-          <strong>thousands</strong> of students land their dream{" "}
+          Keymden students <strong>get hired</strong>. We've helped
+          <strong>thousands</strong> of students land their dream
           <strong>jobs</strong>.
         </h2>
 

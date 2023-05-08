@@ -26,6 +26,30 @@ export default function Admission() {
           <div></div>
         </div>
       </section>
+
+      <section id="admis-3">
+        <h2>
+          Our <strong>weekly</strong> routine
+        </h2>
+        <p>Have a look at how our students learn day by day</p>
+        <div id="a3-cont">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </section>
+
+      <section id="admis-4">
+        <h2>Contact the admissions team</h2>
+        <p>
+          Have something to consult with us contact the admissions team now.
+        </p>
+
+        <div id="admis-5">
+          
+        </div>
+      </section>
     </main>
   );
 }
