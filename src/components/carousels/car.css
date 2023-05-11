@@ -81,6 +81,73 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.car-section-2 > * {
+  width: 80%;
+  margin-top: 3vh;
+  margin-bottom: 4vh;
+}
+
+.car-section-2 > h4 {
+  font-size: 3rem;
+  color: var(--third);
+}
+
+.car-section-2 > p {
+  font-size: 1.2rem;
+  color: var(--third);
+}
+
+.car-section-2 > .car-item-attrs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 5vh;
+}
+
+.car-section-2 > .car-item-attrs > p {
+  margin-right: 2vw;
+  border: thin solid var(--third);
+  height: 100%;
+  width: max-content;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1rem;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--third);
+  border-radius: 2.5px 10px 10px 10px;
+}
+
+.car-section-2 > .car-item-links {
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.car-section-2 > .car-item-links > * {
+  margin-right: 2vw;
+  border: 2px solid var(--third);
+  height: 100%;
+  width: 20%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: var(--third);
+  border-radius: 5px 15px 15px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 #carousel-nav > * {
@@ -92,3 +159,4 @@
   margin-left: 0.5vw;
   margin-right: 0.5vw;
 }
+
