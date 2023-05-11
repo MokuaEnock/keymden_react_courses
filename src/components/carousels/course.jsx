@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./car.css";
 
-export default function App() {
+export default function Carousel() {
   const [currentItem, setCurrentItem] = useState(0); // State to track the current item index
   const carouselArray = [Carousel1, Carousel2, Carousel3, Carousel4, Carousel5];
   let interval; // Variable to hold the interval
@@ -52,6 +52,11 @@ export default function App() {
     resetTimer();
   }
 
+  function handleNav(index) {
+    setCurrentItem(index);
+    resetTimer();
+  }
+
   function resetTimer() {
     clearInterval(interval);
     startTimer();
@@ -69,10 +74,9 @@ export default function App() {
         </div>
       </div>
       <div id="carousel-nav">
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
+        {carouselArray.map((_, index) => (
+          <button key={index} onClick={() => handleNav(index)}></button>
+        ))}
       </div>
     </div>
   );

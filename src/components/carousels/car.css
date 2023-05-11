@@ -46,7 +46,12 @@
 
 .car-item {
   height: 100%;
+  width: 90%;
   border: thin solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
 }
 
 #carousel-nav > * {
@@ -57,6 +62,3 @@
   margin-left: 0.5vw;
   margin-right: 0.5vw;
 }
-
-
-
