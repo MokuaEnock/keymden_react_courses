@@ -36,10 +36,26 @@ export default function App() {
     return <div>item 5</div>;
   }
 
+  function handleNext() {
+    setCurrentItem((prevItem) => (prevItem + 1) % carouselArray.length);
+  }
+
+  function handleBack() {
+    setCurrentItem(
+      (prevItem) => (prevItem - 1 + carouselArray.length) % carouselArray.length
+    );
+  }
+
   return (
     <div className="carousel-cont">
       <div className="carousel-item">
+        <div className="carousel-item-nav">
+          <button onClick={handleBack}>Back</button>
+        </div>
         {React.createElement(carouselArray[currentItem])}
+        <div className="carousel-item-nav">
+          <button onClick={handleNext}>Next</button>
+        </div>
       </div>
       <div id="carousel-nav">
         <button></button>

@@ -12,6 +12,27 @@
   height: 90%;
   width: 100%;
   border: thin solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel-item-nav {
+  height: 100%;
+  width: 5%;
+  border: thin solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item-nav > * {
+  border: thin solid var(--primary);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
 
 #carousel-nav {
