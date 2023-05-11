@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./landing.css";
 import CourseQuiz from "../../components/CourseQuiz/course";
-import CourseCarousel from "../../components/carousels/course";
+import Carousel from "../../components/carousels/course";
 
 export default function Landing() {
   return (
@@ -123,7 +123,9 @@ export default function Landing() {
           Have a look at what you will learn in each course. Enroll for the next
           cohort to upskill.
         </p>
-        <div id="landing-3-cont"></div>
+        <div id="landing-3-cont">
+          <Carousel />
+        </div>
       </section>
 
       <CourseQuiz />
@@ -132,9 +134,7 @@ export default function Landing() {
           <strong>Testimonials</strong> from our Alumni.
         </h2>
         <p>Listen to what some of our alumni have to say about Keymden</p>
-        <div id="landing-5-cont">
-          <CourseCarousel />
-        </div>
+        <div id="landing-5-cont"></div>
         <Link to="/community">Alumni Community</Link>
       </section>
 
