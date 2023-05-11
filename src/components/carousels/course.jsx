@@ -4,46 +4,57 @@ import "./car.css";
 export default function App() {
   const [currentItem, setCurrentItem] = useState(0); // State to track the current item index
   const carouselArray = [Carousel1, Carousel2, Carousel3, Carousel4, Carousel5];
+  let interval; // Variable to hold the interval
 
   useEffect(() => {
-    // Function to automatically transition to the next item after 5 seconds
-    const interval = setInterval(() => {
-      setCurrentItem((prevItem) => (prevItem + 1) % carouselArray.length);
-    }, 5000);
+    startTimer();
 
     return () => {
       clearInterval(interval); // Clear the interval when the component is unmounted
     };
   }, []); // Empty dependency array to run the effect only once on mount
 
+  function startTimer() {
+    interval = setInterval(() => {
+      setCurrentItem((prevItem) => (prevItem + 1) % carouselArray.length);
+    }, 15000); // Delay of 15 seconds (15000 milliseconds)
+  }
+
   function Carousel1() {
-    return <div>item 1</div>;
+    return <div className="car-item">item 1</div>;
   }
 
   function Carousel2() {
-    return <div>item 2</div>;
+    return <div className="car-item">item 2</div>;
   }
 
   function Carousel3() {
-    return <div>item 3</div>;
+    return <div className="car-item">item 3</div>;
   }
 
   function Carousel4() {
-    return <div>item 4</div>;
+    return <div className="car-item">item 4</div>;
   }
 
   function Carousel5() {
-    return <div>item 5</div>;
+    return <div className="car-item">item 5</div>;
   }
 
   function handleNext() {
     setCurrentItem((prevItem) => (prevItem + 1) % carouselArray.length);
+    resetTimer();
   }
 
   function handleBack() {
     setCurrentItem(
       (prevItem) => (prevItem - 1 + carouselArray.length) % carouselArray.length
     );
+    resetTimer();
+  }
+
+  function resetTimer() {
+    clearInterval(interval);
+    startTimer();
   }
 
   return (

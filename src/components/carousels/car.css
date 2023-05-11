@@ -44,6 +44,11 @@
   justify-content: center;
 }
 
+.car-item {
+  height: 100%;
+  border: thin solid black;
+}
+
 #carousel-nav > * {
   border: thin solid var(--primary);
   height: 20px;
@@ -52,3 +57,6 @@
   margin-left: 0.5vw;
   margin-right: 0.5vw;
 }
+
+
+
