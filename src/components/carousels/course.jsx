@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "./car.css";
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Carousel() {
   const [currentItem, setCurrentItem] = useState(0); // State to track the current item index
-  const carouselArray = [Carousel1, Carousel2, Carousel3, Carousel4, Carousel5];
+  // const carouselArray = [Carousel1, Carousel2, Carousel3, Carousel4, Carousel5];
+  const carouselArray = [Carousel1];
   let interval; // Variable to hold the interval
 
   useEffect(() => {
@@ -21,24 +24,41 @@ export default function Carousel() {
   }
 
   function Carousel1() {
-    return <div className="car-item">item 1</div>;
+    return (
+      <div className="car-item">
+        <span className="car-section-1" id="car-section-1"></span>
+        <span className="car-section-2">
+          <h4>Data science</h4>
+          <p></p>
+          <span>
+            <button></button>
+            <button></button>
+            <button></button>
+          </span>
+          <span>
+            <Link to="">Learn More</Link>
+            <Link to="">Enroll</Link>
+          </span>
+        </span>
+      </div>
+    );
   }
 
-  function Carousel2() {
-    return <div className="car-item">item 2</div>;
-  }
+  // function Carousel2() {
+  //   return <div className="car-item">item 2</div>;
+  // }
 
-  function Carousel3() {
-    return <div className="car-item">item 3</div>;
-  }
+  // function Carousel3() {
+  //   return <div className="car-item">item 3</div>;
+  // }
 
-  function Carousel4() {
-    return <div className="car-item">item 4</div>;
-  }
+  // function Carousel4() {
+  //   return <div className="car-item">item 4</div>;
+  // }
 
-  function Carousel5() {
-    return <div className="car-item">item 5</div>;
-  }
+  // function Carousel5() {
+  //   return <div className="car-item">item 5</div>;
+  // }
 
   function handleNext() {
     setCurrentItem((prevItem) => (prevItem + 1) % carouselArray.length);
@@ -66,11 +86,15 @@ export default function Carousel() {
     <div className="carousel-cont">
       <div className="carousel-item">
         <div className="carousel-item-nav">
-          <button onClick={handleBack}>Back</button>
+          <button onClick={handleBack}>
+            <FaArrowAltCircleLeft />
+          </button>
         </div>
         {React.createElement(carouselArray[currentItem])}
         <div className="carousel-item-nav">
-          <button onClick={handleNext}>Next</button>
+          <button onClick={handleNext}>
+            <FaArrowAltCircleRight />
+          </button>
         </div>
       </div>
       <div id="carousel-nav">
