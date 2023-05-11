@@ -75,7 +75,14 @@ export default function Carousel() {
       </div>
       <div id="carousel-nav">
         {carouselArray.map((_, index) => (
-          <button key={index} onClick={() => handleNav(index)}></button>
+          <button
+            key={index}
+            onClick={() => handleNav(index)}
+            style={{
+              backgroundColor:
+                index === currentItem ? "#23d06a" : "transparent",
+            }}
+          ></button>
         ))}
       </div>
     </div>

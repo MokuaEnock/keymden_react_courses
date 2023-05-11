@@ -44,7 +44,8 @@
 .car-item {
   height: 100%;
   width: 90%;
-  border: thin solid black;
+  /* border: thin solid black; */
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,7 +53,8 @@
 }
 
 #carousel-nav > * {
-  border: thin solid var(--primary);
+  border: thin solid transparent;
+  background-color: white;
   height: 20px;
   width: 20px;
   border-radius: 50%;
