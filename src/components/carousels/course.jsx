@@ -106,8 +106,7 @@ export default function Carousel() {
             key={index}
             onClick={() => handleNav(index)}
             style={{
-              backgroundColor:
-                index === currentItem ? "#23d06a" : "transparent",
+              backgroundColor: index === currentItem ? "#23d06a" : "white",
             }}
           ></button>
         ))}
