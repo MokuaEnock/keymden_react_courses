@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./landing.css";
 import CourseQuiz from "../../components/CourseQuiz/course";
 import Carousel from "../../components/carousels/course";
+import TesttimonialCarousel from "../../components/carousels/testimonials";
 
 export default function Landing() {
   return (
@@ -134,7 +135,12 @@ export default function Landing() {
           <strong>Testimonials</strong> from our Alumni.
         </h2>
         <p>Listen to what some of our alumni have to say about Keymden</p>
-        <div id="landing-5-cont"></div>
+        <div id="landing-5-cont">
+          <div id="landing-5-cont1"></div>
+          <div id="landing-5-cont2">
+            <TesttimonialCarousel />
+          </div>
+        </div>
         <Link to="/community">Alumni Community</Link>
       </section>
 
