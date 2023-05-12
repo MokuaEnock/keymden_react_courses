@@ -6,8 +6,8 @@ import { FaQuoteRight } from "react-icons/fa";
 
 export default function TesttimonialCarousel() {
   const [currentItem, setCurrentItem] = useState(0);
-  //   const carouselArray = [Testimonial1, Testimonial2, Testimonial3];
-  const carouselArray = [Testimonial1];
+  const carouselArray = [Testimonial1, Testimonial2, Testimonial3];
+  //   const carouselArray = [Testimonial1];
   const intervalRef = useRef(null);
 
   useEffect(() => {
@@ -53,21 +53,53 @@ export default function TesttimonialCarousel() {
     );
   }
 
-  //   function Testimonial2() {
-  //     return (
-  //       <div className="testimonial-item" id="testimonial-item2">
-  //         Testimony 2
-  //       </div>
-  //     );
-  //   }
+  function Testimonial2() {
+    return (
+      <div className="testimonial-item" id="testimonial-item2">
+        <span
+          className="testimonial-item-image"
+          id="testimonial-item-image-2"
+        ></span>
+        <span className="testimonial-item-quote">
+          <FaQuoteRight />
+        </span>
+        <span className="testimonial-item-info">
+          <p>
+            With no background in Computer Science Keymden has helped me to
+            transition into the field of data and code.
+          </p>
+          <h3>Vutisyu Deng</h3>
+          <h5>
+            Software Engineer <strong>Chromium</strong>
+          </h5>
+        </span>
+      </div>
+    );
+  }
 
-  //   function Testimonial3() {
-  //     return (
-  //       <div className="testimonial-item" id="testimonial-item3">
-  //         Testimony 3
-  //       </div>
-  //     );
-  //   }
+  function Testimonial3() {
+    return (
+      <div className="testimonial-item" id="testimonial-item3">
+        <span
+          className="testimonial-item-image"
+          id="testimonial-item-image-3"
+        ></span>
+        <span className="testimonial-item-quote">
+          <FaQuoteRight />
+        </span>
+        <span className="testimonial-item-info">
+          <p>
+            With the help of Keymden I was able to found my company and the
+            skills that i learnt there have helped me run my company.
+          </p>
+          <h3>John Kamau</h3>
+          <h5>
+            Founder <strong>Woost</strong>
+          </h5>
+        </span>
+      </div>
+    );
+  }
 
   function handleNext() {
     setCurrentItem((prevItem) => (prevItem + 1) % carouselArray.length);
