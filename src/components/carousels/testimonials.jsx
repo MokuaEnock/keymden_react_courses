@@ -7,7 +7,6 @@ import { FaQuoteRight } from "react-icons/fa";
 export default function TesttimonialCarousel() {
   const [currentItem, setCurrentItem] = useState(0);
   const carouselArray = [Testimonial1, Testimonial2, Testimonial3];
-  //   const carouselArray = [Testimonial1];
   const intervalRef = useRef(null);
 
   useEffect(() => {

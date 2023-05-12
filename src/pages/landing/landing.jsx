@@ -136,7 +136,15 @@ export default function Landing() {
         </h2>
         <p>Listen to what some of our alumni have to say about Keymden</p>
         <div id="landing-5-cont">
-          <div id="landing-5-cont1"></div>
+          <div id="landing-5-cont1">
+            <p>
+              We are not only a bootcamp we are a community we offer support to
+              our Alumni even after years after completing their studies at
+              Keymden. We power ideas that transform Africa and offer support if
+              their ideas align with our vision for Africa. Listen to what some
+              of them have to say about us.
+            </p>
+          </div>
           <div id="landing-5-cont2">
             <TesttimonialCarousel />
           </div>

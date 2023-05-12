@@ -448,7 +448,6 @@
 
 #landing-5-cont {
   height: 70vh;
-  border: thin solid black;
   margin-top: 2vh;
   margin-bottom: 2vh;
   width: 100%;
@@ -459,12 +458,22 @@
 }
 
 #landing-5-cont > div {
-  border: thin solid black;
   height: 100%;
 }
 
 #landing-5-cont1 {
   width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#landing-5-cont1 > p {
+  color: var(--six);
+  font-size: 1.5rem;
+  width: 80%;
 }
 
 #landing-5-cont2 {
