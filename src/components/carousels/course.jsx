@@ -5,7 +5,7 @@ import "./car.css";
 
 export default function Carousel() {
   const [currentItem, setCurrentItem] = useState(0);
-  const carouselArray = [Carousel1, Carousel2, Carousel3, Carousel4, Carousel5];
+  const carouselArray = [Carousel1, Carousel2, Carousel3, Carousel4];
   const intervalRef = useRef(null);
 
   useEffect(() => {
@@ -56,19 +56,88 @@ export default function Carousel() {
   }
 
   function Carousel2() {
-    return <div className="car-item">item 2</div>;
+    return (
+      <div className="car-item">
+        <span className="car-section-1" id="car-section-2"></span>
+        <span className="car-section-2">
+          <h4>Data Analytics</h4>
+          <p>
+            Data analytics involves analyzing and interpreting data to uncover
+            valuable insights and trends. This course covers various topics
+            including data cleaning, exploratory data analysis, statistical
+            analysis, data visualization, and more. Gain the skills required to
+            make data-driven decisions and solve complex business problems.
+          </p>
+
+          {/* <span className="car-item-attrs">
+            <p>Beginner Friendly</p>
+            <p>8 Months</p>
+            <p>8 Projects</p>
+          </span> */}
+
+          <span className="car-item-links">
+            <Link to="">Learn More</Link>
+            <Link to="">Enroll</Link>
+          </span>
+        </span>
+      </div>
+    );
   }
 
   function Carousel3() {
-    return <div className="car-item">item 3</div>;
+    return (
+      <div className="car-item">
+        <span className="car-section-1" id="car-section-3"></span>
+        <span className="car-section-2">
+          <h4>Software Engineering</h4>
+          <p>
+            Data science involves extracting insights from data using
+            statistical analysis and machine learning techniques. It combines
+            programming, mathematics, and domain knowledge to solve complex
+            problems and make data-driven decisions
+          </p>
+
+          {/* <span className="car-item-attrs">
+            <p>Beginner Friendly</p>
+            <p>8 Months</p>
+            <p>8 Projects</p>
+          </span> */}
+
+          <span className="car-item-links">
+            <Link to="">Learn More</Link>
+            <Link to="">Enroll</Link>
+          </span>
+        </span>
+      </div>
+    );
   }
 
   function Carousel4() {
-    return <div className="car-item">item 4</div>;
-  }
+    return (
+      <div className="car-item">
+        <span className="car-section-1" id="car-section-1"></span>
+        <span className="car-section-2">
+          <h4>Data science</h4>
+          <p>
+            Data science involves extracting insights from data using
+            statistical analysis and machine learning techniques. It combines
+            programming, mathematics, and domain knowledge to solve complex
+            problems and make data-driven decisions
+          </p>
 
-  function Carousel5() {
-    return <div className="car-item">item 5</div>;
+          {/* <span className="car-item-attrs">
+            <p>Beginner Friendly</p>
+            <p>8 Months</p>
+            <p>8 Projects</p>
+          </span> */}
+
+          <span className="car-item-links">
+            <Link to="">Learn More</Link>
+            <Link to="">Enroll</Link>
+          </span>
+        </span>
+      </div>
+    );
   }
 
   function handleNext() {

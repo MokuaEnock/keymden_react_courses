@@ -73,6 +73,18 @@
   background-image: url(https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 
+#car-section-2 {
+  background-image: url(https://images.pexels.com/photos/7887816/pexels-photo-7887816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#car-section-3 {
+  background-image: url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#car-section-4 {
+  background-image: url(https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
 .car-section-2 {
   width: 55%;
   border-top-right-radius: inherit;
@@ -159,4 +171,3 @@
   margin-left: 0.5vw;
   margin-right: 0.5vw;
 }
-
