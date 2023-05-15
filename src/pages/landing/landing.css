@@ -408,7 +408,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  border: thin solid;
   height: max-content;
   padding-top: 4vh;
   padding-bottom: 4vh;
@@ -482,7 +481,6 @@
 
 #landing-6 {
   width: 100%;
-  border: thin solid black;
   height: max-content;
   display: flex;
   flex-direction: column;
