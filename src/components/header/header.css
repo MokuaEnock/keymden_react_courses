@@ -8,6 +8,13 @@ header {
   border-bottom: thin solid var(--six);
 }
 
+header.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
 header > * {
   height: 100%;
   width: 90%;

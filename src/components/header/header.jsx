@@ -1,15 +1,30 @@
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import "./header.css";
 
 export default function Header() {
-  let navigate = useNavigate();
+  const [isSticky, setIsSticky] = useState(false);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isTop = window.scrollY < 100;
+      setIsSticky(!isTop);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   function redirect() {
     navigate("/contact");
   }
+
   return (
-    <header>
+    <header className={isSticky ? "sticky" : ""}>
       <div id="header">
         <Link to="/" className="logo">
           Keymden
