@@ -2,7 +2,7 @@
   "name": "keymden_react",
   "private": true,
   "homepage": "./",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
