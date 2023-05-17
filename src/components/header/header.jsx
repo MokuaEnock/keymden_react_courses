@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import "./header.css";
 
+import "./header.css";
+import logoimage from "../../assets/logo.png";
 export default function Header() {
   const [isSticky, setIsSticky] = useState(false);
   const navigate = useNavigate();
@@ -29,6 +30,10 @@ export default function Header() {
         <Link to="/" className="logo">
           Keymden
         </Link>
+
+        <Link to="/" className="logo1">
+          <img src={logoimage} alt="logo" />
+        </Link>
         <nav>
           <Link to="/admissions">Admissions</Link>
           <Link to="/modules">Courses</Link>
@@ -38,6 +43,12 @@ export default function Header() {
         </nav>
         <button id="contact-us" onClick={redirect}>
           Contact Us
+        </button>
+        <button id="hambugger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
       </div>
     </header>

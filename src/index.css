@@ -48,3 +48,10 @@ strong {
 main {
   min-height: 80vh;
 }
+
+/* Phones and Tablets Combined */
+@media only screen and (max-width: 1023px) {
+  /* Your CSS styles for phones, small tablets, and tablets in landscape mode go here */
+
+
+}
